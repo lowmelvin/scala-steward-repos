@@ -1149,6 +1149,7 @@
 - sbt/sbt-header
 - sbt/sbt-jacoco
 - sbt/sbt-java-formatter
+- sbt/sbt-jupiter-interface
 - sbt/sbt-jni
 - sbt/sbt-jshint
 - sbt/sbt-js-engine
