@@ -894,6 +894,7 @@
 - olafurpg/sbt-ci-release
 - openzipkin/zipkin-finagle
 - open-electrons/open-electrons-templates
+- OpenOlitor/openolitor-server
 - optics-dev/Monocle
 - orbeon/orbeon-forms
 - ornicar/lila
