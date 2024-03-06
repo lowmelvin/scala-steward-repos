@@ -1561,6 +1561,7 @@
 - yarhrn/rozklad
 - yarhrn/simple-scala-json-rpc
 - yisraelU/Smithy4s-TodoBackend
+- yisraelU/smithy4s-zio
 - yoohaemin/decrel
 - yoshiyoshifujii/reactive-snowflake
 - yoshiyoshifujii/sbt-jig
