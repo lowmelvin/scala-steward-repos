@@ -568,6 +568,7 @@
 - IronCoreLabs/cats-scalatest
 - IronCoreLabs/recrypt
 - ITV/quartz4s
+- jackcviers/mill-guardrail
 - jacum/akka-sensors
 - jamesward/easyracer
 - jamesward/javadoccentral
@@ -1606,7 +1607,6 @@
 - zio/zio-test-intellij
 - ziyasal/reducio
 - ZookLabs/zooklabs
-- jackcviers/mill-guardrail
 - zouzias/spark-hello-world
 - zouzias/spark-lucenerdd
 - zzvara/spark-disqus
