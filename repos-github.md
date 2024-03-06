@@ -1606,6 +1606,7 @@
 - zio/zio-test-intellij
 - ziyasal/reducio
 - ZookLabs/zooklabs
+- jackcviers/mill-guardrail
 - zouzias/spark-hello-world
 - zouzias/spark-lucenerdd
 - zzvara/spark-disqus
