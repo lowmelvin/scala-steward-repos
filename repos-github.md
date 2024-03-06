@@ -893,9 +893,9 @@
 - ocadotechnology/sttp-oauth2
 - odenzo/scala3-template
 - olafurpg/sbt-ci-release
+- OpenOlitor/openolitor-server
 - openzipkin/zipkin-finagle
 - open-electrons/open-electrons-templates
-- OpenOlitor/openolitor-server
 - optics-dev/Monocle
 - orbeon/orbeon-forms
 - ornicar/lila
