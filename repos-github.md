@@ -1339,6 +1339,7 @@
 - sweet-delights/delightful-typeclasses
 - SwiftInvention/scala-zio-example
 - SwissBorg/akka-persistence-postgres
+- SwissBorg/pekko-persistence-postgres
 - synesso/scala-stellar-horizon-exemplar
 - synesso/scala-stellar-sdk
 - SystemFw/upperbound
