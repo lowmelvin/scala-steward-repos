@@ -1001,6 +1001,8 @@
 - playframework/play-silhouette
 - playframework/play-silhouette:9.x
 - playframework/play-slick
+- playframework/play-slick:6.0.x
+- playframework/play-slick:5.3.x
 - playframework/play-slick:5.2.x
 - playframework/play-soap
 - playframework/play-socket.io
