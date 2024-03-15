@@ -1573,7 +1573,7 @@
 - yoshiyoshifujii/sbt-jig
 - yurique/embedded-files
 - yurique/embedded-files-macro
-- zainab-ali/sbt-sammy
+- zainab-ali/aquascape
 - zeal18/zio-mongodb
 - zengularity/benji
 - zengularity/query-monad
