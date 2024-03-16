@@ -652,6 +652,8 @@
 - kitlangton/animus
 - kitlangton/parallel-for
 - kitlangton/zio-magic
+- kitlangton/neotype
+- kitlangton/quotidian
 - klassic/klassic
 - kmizu/jsonda
 - kmizu/matlike
