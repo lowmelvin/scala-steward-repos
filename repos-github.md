@@ -650,10 +650,10 @@
 - kinoplan/scalajs-react-material-ui
 - kinoplan/utils
 - kitlangton/animus
-- kitlangton/parallel-for
-- kitlangton/zio-magic
 - kitlangton/neotype
+- kitlangton/parallel-for
 - kitlangton/quotidian
+- kitlangton/zio-magic
 - klassic/klassic
 - kmizu/jsonda
 - kmizu/matlike
