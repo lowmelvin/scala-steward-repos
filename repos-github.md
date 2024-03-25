@@ -570,8 +570,8 @@
 - IronCoreLabs/cats-scalatest
 - IronCoreLabs/recrypt
 - ITV/quartz4s
-- jackcviers/mill-guardrail
 - jackcviers/cats-saga
+- jackcviers/mill-guardrail
 - jacum/akka-sensors
 - jamesward/easyracer
 - jamesward/javadoccentral
