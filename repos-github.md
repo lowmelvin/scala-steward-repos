@@ -508,6 +508,7 @@
 - GlasslabGames/html.scala
 - GlasslabGames/nameBasedXml.scala
 - gnieh/diffson
+- gnieh/fs2-data
 - gnp/ident
 - gnp/zio-data-streams
 - gnp/zio-hello-world
@@ -1142,7 +1143,6 @@
 - sangria-graphql/sangria-spray-json
 - sangria-graphql/sangria-streaming-api
 - sangria-graphql/sangria-subscriptions-example
-- satabin/fs2-data
 - sbt-dao-generator/sbt-dao-generator
 - sbt/sbt-autoversion
 - sbt/sbt-avro
