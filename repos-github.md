@@ -571,6 +571,7 @@
 - IronCoreLabs/recrypt
 - ITV/quartz4s
 - jackcviers/mill-guardrail
+- jackcviers/cats-saga
 - jacum/akka-sensors
 - jamesward/easyracer
 - jamesward/javadoccentral
