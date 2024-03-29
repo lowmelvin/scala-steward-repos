@@ -1354,6 +1354,7 @@
 - synesso/scala-stellar-horizon-exemplar
 - synesso/scala-stellar-sdk
 - SystemFw/upperbound
+- SymphonyQL/SymphonyQL
 - taig/flog
 - taig/lokal
 - taig/sbt-blowout
