@@ -1351,10 +1351,10 @@
 - SwiftInvention/scala-zio-example
 - SwissBorg/akka-persistence-postgres
 - SwissBorg/pekko-persistence-postgres
+- SymphonyQL/SymphonyQL
 - synesso/scala-stellar-horizon-exemplar
 - synesso/scala-stellar-sdk
 - SystemFw/upperbound
-- SymphonyQL/SymphonyQL
 - taig/flog
 - taig/lokal
 - taig/sbt-blowout
