@@ -717,6 +717,11 @@
 - lewisjkl/kafkakit
 - liancheng/scalafix-organize-imports
 - librecaptcha/lc-core
+- lichess-org/lila
+- lichess-org/lila-fishnet
+- lichess-org/lila-search
+- lichess-org/lila-ws
+- lichess-org/scalachess
 - lightbend-labs/cloc-plugin
 - lightbend-labs/lightbend-emoji
 - lightbend-labs/scala-fortify-sample
@@ -905,11 +910,6 @@
 - open-electrons/open-electrons-templates
 - optics-dev/Monocle
 - orbeon/orbeon-forms
-- ornicar/lila
-- ornicar/lila-fishnet
-- ornicar/lila-search
-- ornicar/lila-ws
-- ornicar/scalachess
 - otus-load/gatling-sampler
 - outwatch/outwatch
 - outwatch/seed.g8
