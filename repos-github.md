@@ -776,6 +776,7 @@
 - mdedetrich/akka-streams-json
 - mdedetrich/pekko-streams-circe
 - medeia/medeia
+- MercurieVV/skreeep2
 - metabookmarks/lagom-silhouette
 - metabookmarks/sbt-plantuml-plugin
 - metarank/cfor
