@@ -722,6 +722,7 @@
 - lichess-org/lila-search
 - lichess-org/lila-ws
 - lichess-org/scalachess
+- lichess-org/scalalib
 - lightbend-labs/cloc-plugin
 - lightbend-labs/lightbend-emoji
 - lightbend-labs/scala-fortify-sample
