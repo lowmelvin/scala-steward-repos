@@ -1214,6 +1214,7 @@
 - scala-steward-org/sbt-plugin
 - scala-steward-org/scala-steward
 - scala-tessella/ring-seq
+- scala-tessella/tessella
 - scala-tsi/scala-tsi
 - scala-ts/scala-ts
 - scala/hello-world.g8
