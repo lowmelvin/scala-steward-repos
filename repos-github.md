@@ -936,6 +936,7 @@
 - phenoscape/phenoscape-kb-web-ui
 - phenoscape/scowl
 - phenoscape/sparql-utils
+- Philippus/akka-http-testkit-munit
 - Philippus/baggage-jwt
 - Philippus/base64
 - Philippus/between
