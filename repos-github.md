@@ -941,6 +941,7 @@
 - Philippus/base64
 - Philippus/between
 - Philippus/bump
+- Philippus/elastic4s
 - Philippus/emoji-clock
 - Philippus/gpc-tree
 - Philippus/habitat.g8
@@ -1291,7 +1292,6 @@
 - sirthias/borer
 - sirthias/spliff
 - sksamuel/avro4s
-- sksamuel/elastic4s
 - sksamuel/pulsar4s
 - sksamuel/sbt-scapegoat
 - sksamuel/scapegoat
