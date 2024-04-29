@@ -1004,9 +1004,9 @@
 - playframework/play-mailer
 - playframework/play-mailer:9.0.x
 - playframework/play-meta
-- playframework/play-samples:main
 - playframework/play-samples
 - playframework/play-samples:2.9.x
+- playframework/play-samples:main
 - playframework/play-scala-angular-seed
 - playframework/play-scala-react-seed
 - playframework/play-scala-seed.g8
