@@ -879,6 +879,7 @@
 - nightscape/scala-node-red
 - nikitaDanilenko/foodie
 - niklasf/lila-openingexplorer
+- nikolaiser/biser
 - niqdev/caliban-extras
 - niqdev/kafka-scala-examples
 - niqdev/scala-fp
