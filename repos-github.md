@@ -724,14 +724,14 @@
 - lichess-org/lila-ws
 - lichess-org/scalachess
 - lichess-org/scalalib
+- lightbend-labs/benchdb
 - lightbend-labs/cloc-plugin
 - lightbend-labs/lightbend-emoji
+- lightbend-labs/mima
 - lightbend-labs/scala-fortify-sample
 - lightbend-labs/scala-logging
 - lightbend-labs/scala-sculpt
-- lightbend/benchdb
 - lightbend/genjavadoc
-- lightbend/mima
 - lightbend/paradox
 - lightbend/sbt-paradox-apidoc
 - lightbend/ssl-config
