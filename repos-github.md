@@ -1108,6 +1108,7 @@
 - ringcentral/cassandra4io
 - rintcius/scala-steward-ping
 - rlemaitre/pillars
+- rolang/dumbo
 - routis/dmmf-scala
 - rpiaggio/meal
 - rtimush/sbt-rewarn
