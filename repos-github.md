@@ -905,7 +905,6 @@
 - NthPortal/spaghetti
 - NthPortal/v
 - ocadotechnology/pass4s
-- polyvariant/sttp-oauth2
 - odenzo/scala3-template
 - olafurpg/sbt-ci-release
 - OpenOlitor/openolitor-server
@@ -1036,6 +1035,7 @@
 - polyvariant/better-tostring
 - polyvariant/caliban-gitlab
 - polyvariant/colorize-scala
+- polyvariant/sttp-oauth2
 - ppurang/abctemplates
 - ppurang/asynch
 - pravin-raha/maantrack
