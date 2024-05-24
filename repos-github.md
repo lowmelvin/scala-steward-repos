@@ -1530,7 +1530,7 @@
 - VirtusLab/scala-packager
 - VirtusLab/scala-yaml
 - vladimirlogachev/exchange-matcher
-- vladimirlogachev/transitive_closure
+- vladimirlogachev/transitive-closure
 - VladKopanev/cats-saga
 - VladKopanev/zio-saga
 - VladPodilnyk/d4s-example
