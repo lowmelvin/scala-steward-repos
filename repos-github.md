@@ -438,6 +438,7 @@
 - fdietze/scala-js-d3v4
 - fdietze/scala-js-fontawesome
 - fdietze/vectory
+- felher/beminar
 - felher/catenary
 - felher/laminar-component-persistence
 - felipebonezi/convert-unit-service
