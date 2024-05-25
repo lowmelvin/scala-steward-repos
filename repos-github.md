@@ -1529,7 +1529,7 @@
 - VirtusLab/scala-js-cli
 - VirtusLab/scala-packager
 - VirtusLab/scala-yaml
-- vladimirlogachev/exchange-matcher
+- vladimirlogachev/exchange-order-matcher
 - vladimirlogachev/transitive-closure
 - VladKopanev/cats-saga
 - VladKopanev/zio-saga
