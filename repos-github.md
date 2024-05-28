@@ -1381,6 +1381,7 @@
 - TeamWanari/web-push
 - tegonal/workflow-helper
 - tersesystems/blindsight
+- testcontainers/testcontainers-scala
 - tethys-json/tethys
 - ThatScalaGuy/circe-jq
 - ThatScalaGuy/nats4cats
