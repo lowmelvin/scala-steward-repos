@@ -678,6 +678,7 @@
 - lambdaworks/scountries
 - lambdaworks/scurl-detector
 - lambdaworks/zio-elasticsearch
+- lampepfl/gears
 - lancewalton/treelog
 - laserdisc-io/eisner
 - laserdisc-io/fs2-aws
