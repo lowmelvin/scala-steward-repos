@@ -597,8 +597,8 @@
 - jczuchnowski/zio-pulsar
 - jd557/interim
 - jd557/minart
-- jd557/spaeti
 - jd557/rokrok
+- jd557/spaeti
 - Jelly-RDF/jelly-jvm
 - jirkavrba/vse-verification-bot
 - jkobejs/endpoints-uzhttp
