@@ -1035,6 +1035,7 @@
 - plokhotnyuk/fast-string-interpolator
 - plokhotnyuk/jsoniter-scala
 - plokhotnyuk/rtree2d
+- pme123/camundala
 - polyvariant/better-tostring
 - polyvariant/caliban-gitlab
 - polyvariant/colorize-scala
