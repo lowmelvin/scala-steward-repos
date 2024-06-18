@@ -360,6 +360,7 @@
 - ekrich/sblas.g8
 - ekrich/sconfig
 - ekrich/sjavatime
+- ekrich/slapack
 - ekrich/stensorflow
 - ekrich/stensorflow.g8
 - eli-jordan/alfred-jenkins
