@@ -225,6 +225,7 @@
 - clovellytech/http4s-modules
 - codacy/codacy-analysis-cli
 - codefeedr/kafkaquery
+- codelytv/scala-basic-skeleton.g8
 - comcast/ip4s
 - commercetools/sphere-scala-libs
 - compstak/circe-debezium
