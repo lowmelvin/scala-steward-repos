@@ -985,6 +985,7 @@
 - playframework/anorm
 - playframework/cachecontrol
 - playframework/cachecontrol:2.3.x
+- playframework/cachecontrol:3.0.x
 - playframework/omnidoc
 - playframework/omnidoc:2.9.x
 - playframework/playframework
@@ -1007,6 +1008,7 @@
 - playframework/play-java-seed.g8:2.9.x
 - playframework/play-json
 - playframework/play-json:2.10.x
+- playframework/play-json:3.0.x
 - playframework/play-mailer
 - playframework/play-mailer:9.0.x
 - playframework/play-meta
@@ -1029,10 +1031,12 @@
 - playframework/play-webgoat:2.9.x
 - playframework/play-ws
 - playframework/play-ws:2.2.x
+- playframework/play-ws:3.0.x
 - playframework/scalatestplus-play
 - playframework/scalatestplus-play:6.0.x
 - playframework/twirl
 - playframework/twirl:1.6.x
+- playframework/twirl:2.0.x
 - play-swagger/play-swagger
 - plokhotnyuk/expression-evaluator
 - plokhotnyuk/fast-string-interpolator
