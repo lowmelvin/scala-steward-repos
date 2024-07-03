@@ -558,6 +558,7 @@
 - hugo-vrijswijk/tgtg
 - huiwang/codingame-scala-kit
 - Idealiste-cz/ideal-voting-backend
+- igor-vovk/cats-effect-simple-di
 - iheartradio/ficus
 - ikhoon/scalapb-reactor
 - ilya-murzinov/finch-todo-backend
