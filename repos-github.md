@@ -86,6 +86,7 @@
 - ant8e/uuid4cats-effect
 - an-tex/sc8s
 - apache/daffodil
+- apache/daffodil-sbt
 - apache/incubator-nlpcraft
 - apimorphism/telegramium
 - arainko/ducktape
