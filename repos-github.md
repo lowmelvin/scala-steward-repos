@@ -558,6 +558,9 @@
 - hseeberger/slf4s
 - hugo-vrijswijk/tgtg
 - huiwang/codingame-scala-kit
+- IBM/diesel-i18n
+- IBM/diesel-core
+- IBM/diesel-json
 - Idealiste-cz/ideal-voting-backend
 - igor-vovk/cats-effect-simple-di
 - iheartradio/ficus
