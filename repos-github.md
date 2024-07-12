@@ -617,8 +617,8 @@
 - joan38/kubernetes-client
 - joan38/mill-git
 - joan38/mill-scalafix
-- joernio/joern
 - joernio/flatgraph
+- joernio/joern
 - joesan/plant-simulator
 - johanandren/sbt-akka-version-check
 - johannes-ebbighausen/oker
