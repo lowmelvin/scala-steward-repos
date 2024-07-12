@@ -618,6 +618,7 @@
 - joan38/mill-git
 - joan38/mill-scalafix
 - joernio/joern
+- joernio/flatgraph
 - joesan/plant-simulator
 - johanandren/sbt-akka-version-check
 - johannes-ebbighausen/oker
@@ -1299,8 +1300,6 @@
 - shankarshastri/scala-proj-template
 - ShiftLeftSecurity/codepropertygraph
 - ShiftLeftSecurity/js2cpg
-- ShiftLeftSecurity/overflowdb
-- ShiftLeftSecurity/overflowdb-codegen
 - ShiftLeftSecurity/sbt-ci-release-early
 - shopstic/chopsticks
 - sideeffffect/sbt-decent-scala
