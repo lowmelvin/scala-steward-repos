@@ -1546,6 +1546,7 @@
 - VirtusLab/scala-packager
 - VirtusLab/scala-yaml
 - vladimirlogachev/exchange-order-matcher
+- vladimirlogachev/page-title-reader-microservice
 - vladimirlogachev/transitive-closure
 - VladKopanev/cats-saga
 - VladKopanev/zio-saga
