@@ -1487,6 +1487,7 @@
 - tulz-app/frontroute
 - tulz-app/laminext
 - tulz-app/tuplez
+- tumakha/play3-scala3-seed
 - twitter/algebird
 - twitter/bijection
 - twitter/chill
