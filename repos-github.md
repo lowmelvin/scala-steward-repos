@@ -1601,6 +1601,7 @@
 - yarhrn/loco
 - yarhrn/rozklad
 - yarhrn/simple-scala-json-rpc
+- yisraelU/Forge
 - yisraelU/Smithy4s-TodoBackend
 - yisraelU/smithy4s-zio
 - yoohaemin/decrel
