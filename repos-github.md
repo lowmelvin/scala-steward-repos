@@ -1548,6 +1548,7 @@
 - VirtusLab/scala-packager
 - VirtusLab/scala-yaml
 - vladimirlogachev/exchange-order-matcher
+- vladimirlogachev/exercises-fp-strategies-in-scala-with-cats
 - vladimirlogachev/page-title-reader-microservice
 - vladimirlogachev/transitive-closure
 - VladKopanev/cats-saga
