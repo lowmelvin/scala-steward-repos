@@ -353,7 +353,7 @@
 - dylandoamaral/zinteract
 - ecyshor/akka-consul-lease
 - eed3si9n/expecty
-- EffectOrientedProgramming/book
+- EffectOrientedProgramming/examples
 - eikek/binny
 - eikek/calev
 - eikek/docspell
