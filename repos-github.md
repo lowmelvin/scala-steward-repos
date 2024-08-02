@@ -1539,6 +1539,7 @@
 - VirtusLab/scala-js-cli
 - VirtusLab/scala-packager
 - VirtusLab/scala-yaml
+- VKFisher/tic-tac-toe-scala
 - vladimirlogachev/exchange-order-matcher
 - vladimirlogachev/exercises-fp-strategies-in-scala-with-cats
 - vladimirlogachev/page-title-reader-microservice
