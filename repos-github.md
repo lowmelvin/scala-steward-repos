@@ -5,7 +5,6 @@
 - 2m/kabrioletas
 - 2m/polyfact
 - 2m/rallyeye
-- 2m/rallyeye-data
 - 2m/sonatype-stats
 - 2m/untappd-history
 - 2m/vilnius-pub
@@ -21,24 +20,17 @@
 - adzerk/apso
 - afsalthaj/safe-string-interpolation
 - agourlay/cornichon
-- agourlay/json-2-csv
 - agustafson/cats-quartz
 - ahjohannessen/sec
 - ahjohannessen/unum
 - akka/akka
 - akka/akka-grpc
-- akka/akka-grpc-sample-kubernetes-scala
 - akka/akka-http
 - akka/akka-management
-- akka/akka-paradox
 - akka/akka-persistence-cassandra
 - akka/akka-persistence-jdbc
 - akka/akka-persistence-r2dbc
 - akka/akka-projection
-- akka/akka-sample-cluster-docker-compose-java
-- akka/akka-sample-cluster-docker-compose-scala
-- akka/akka-sample-cluster-kubernetes-dns-java
-- akka/akka-sample-cluster-kubernetes-scala
 - akka/alpakka
 - akka/alpakka-kafka
 - albuch/sbt-dependency-check
@@ -71,7 +63,6 @@
 - AmadeusITGroup/sbt-release-notes
 - andreamarcolin/oidc4s
 - andreum/process-resource
-- andrewrigas/oath
 - andyglow/caseclass-evolution
 - andyglow/scalacheck-gen-configured
 - andyglow/scaladoc
@@ -81,7 +72,6 @@
 - andyglow/spark-option-setter
 - andyglow/typesafe-config-scala
 - andyglow/websocket-scala-client
-- AndyKirsch/ScalaStewardIssueRepro
 - ant8e/sbt-i18n
 - ant8e/uuid4cats-effect
 - an-tex/sc8s
@@ -131,8 +121,6 @@
 - bazeltools/bsp4bazel
 - bbarker/diz
 - bcarter97/id-generator
-- beautiful-scala/sbt-scalastyle
-- beautiful-scala/scalastyle
 - BenFradet/gsheets4s
 - BenFradet/spark-kafka-writer
 - BenFradet/struct-type-encoder
@@ -205,7 +193,6 @@
 - che-samples/scala-sbt
 - chief-of-state/chief-of-state
 - chitralverma/scala-polars
-- chmodas/akka-persistence-r2dbc
 - circe/circe
 - circe/circe-argus
 - circe/circe-benchmarks
@@ -273,13 +260,6 @@
 - cquiroz/kuyfi
 - cquiroz/sbt-locales
 - cquiroz/sbt-tzdb
-- cquiroz/scalajs-react-clipboard
-- cquiroz/scalajs-react-common
-- cquiroz/scalajs-react-draggable
-- cquiroz/scalajs-react-grid-layout
-- cquiroz/scalajs-react-resizable
-- cquiroz/scalajs-react-semantic-ui
-- cquiroz/scalajs-react-virtualized
 - cquiroz/scala-java-locales
 - cquiroz/scala-java-time
 - crealytics/spark-excel
@@ -292,7 +272,6 @@
 - daandi/nice-url-encode-decode
 - daenyth/cats-effect-guava
 - DanielaSfregola/random-data-generator
-- DanielaSfregola/twitter4s
 - DanielaSfregola/twitter4s.g8
 - DanielaSfregola/twitter4s-demo
 - danieletorelli/loan-cashflows-api
@@ -351,7 +330,6 @@
 - dwijnand/sbt-reloadquick
 - dwijnand/sbt-travisci
 - dylandoamaral/zinteract
-- ecyshor/akka-consul-lease
 - eed3si9n/expecty
 - EffectOrientedProgramming/examples
 - eikek/binny
@@ -365,12 +343,10 @@
 - ekrich/sblas.g8
 - ekrich/sconfig
 - ekrich/sjavatime
-- ekrich/slapack
 - ekrich/stensorflow
 - ekrich/stensorflow.g8
 - eli-jordan/alfred-jenkins
 - eltherion/http4s-timer
-- emartech/pure-scheduler
 - embeddedkafka/embedded-kafka
 - embeddedkafka/embedded-kafka-schema-registry
 - emergentorder/onnx-scala
@@ -391,8 +367,6 @@
 - etorres/lambda4s-demo
 - etorres/markdown-transformation-kata-scala
 - etorres/train-station
-- EventStore/EventStore.Akka.Persistence
-- EventStore/EventStore.JVM
 - evolution-gaming/akka-effect
 - evolution-gaming/akka-http-documenteddsl
 - evolution-gaming/akka-http-play-json
@@ -408,7 +382,6 @@
 - evolution-gaming/kafka-flow
 - evolution-gaming/kafka-journal
 - evolution-gaming/kafka-launcher
-- evolution-gaming/kryo-macros
 - evolution-gaming/pubsub
 - evolution-gaming/random
 - evolution-gaming/retry
@@ -440,7 +413,6 @@
 - felher/catenary
 - felher/laminar-component-persistence
 - felher/sainte-lague
-- felipebonezi/convert-unit-service
 - finagle/finagle-mysql-shapes
 - finagle/finagle-oauth2
 - finagle/finch
@@ -501,7 +473,6 @@
 - gfc-collective/sbt-aws-lambda
 - gfc-collective/sbt-dependency-graph-sugar
 - gfc-collective/sbt-newrelic
-- ghostbuster91/sttp-openapi-generator
 - ghostdogpr/caliban
 - gig-foundation/dmf-kit-scala
 - GlasslabGames/html.scala
@@ -529,12 +500,10 @@
 - gumdrop/quizleague
 - hablapps/doric
 - hagay3/skuber
-- hajlaoui-nader/books 
 - hayasshi/akka-http-router
 - henricook/cryptoutils
 - henricook/flakefinder
 - hipjim/scala-retry
-- hireproof/screening
 - hnaderi/edomata
 - hntd187/spotify
 - hoangmaihuy/mill-caliban
@@ -546,9 +515,6 @@
 - holdenk/spark-upgrade
 - holidaycheck/easy-akka-http
 - hrj/abandon
-- hseeberger/akka-http-json
-- hseeberger/akkluster
-- hseeberger/slf4s
 - hugo-vrijswijk/tgtg
 - huiwang/codingame-scala-kit
 - IBM/diesel-core
@@ -596,7 +562,6 @@
 - jchapuis/fs2-kafka-mock
 - jcouyang/dhall-generic
 - jcouyang/jujiu
-- jcouyang/zhuyu
 - jczuchnowski/zio-pulsar
 - jd557/interim
 - jd557/minart
@@ -604,8 +569,6 @@
 - jd557/spaeti
 - Jelly-RDF/jelly-jvm
 - jirkavrba/vse-verification-bot
-- jkobejs/endpoints-uzhttp
-- jkobejs/zio-google-cloud-oauth2
 - joan38/kafka-streams-circe
 - joan38/kubernetes-client
 - joan38/mill-git
@@ -614,7 +577,6 @@
 - joernio/joern
 - joesan/plant-simulator
 - johanandren/sbt-akka-version-check
-- johannes-ebbighausen/oker
 - johnspade/csv3s
 - johnynek/bosatsu
 - jordiolivares/scio-sparql
@@ -647,7 +609,6 @@
 - kelnos/mima-maven-plugin
 - kelnos/scala-cross-maven-plugin
 - kelnos/tut-maven-plugin
-- kemitix/thorp
 - keuhdall/otel4s-grafana-example
 - Khalian/Modulo12
 - kiambogo/fs2-jms
@@ -661,20 +622,16 @@
 - kitlangton/neotype
 - kitlangton/parallel-for
 - kitlangton/quotidian
-- kitlangton/zio-magic
 - klassic/klassic
 - kmizu/jsonda
 - kmizu/matlike
 - kmizu/pegex
-- kontainers/elastic4s-client-aws
-- kontainers/micrometer-akka
 - kontainers/PureCSV
 - kostjas/spark-google-spreadsheets
 - kovstas/fs2-throttler
 - kovszilard/smenu
 - kovszilard/twitter-server-prometheus
 - krzemin/octopus
-- Ksisu/tell-me-a-secret
 - kubukoz/smithy-playground
 - kubukoz/spotify-next
 - kwark/play-refined
@@ -708,10 +665,7 @@
 - lefou/mill-vcs-version
 - LEGO/woof
 - leigh-perry/conduction
-- leigh-perry/log4zio
 - leigh-perry/metamorphosis
-- leigh-perry/template-cats-io-app
-- leigh-perry/template-cats-zio-app
 - lemastero/scala_typeclassopedia
 - lemastero/Triglav
 - lemonlabsuk/scala-uri
@@ -722,7 +676,6 @@
 - leobenkel/Zparkio
 - LesnyRumcajs/grpc_bench
 - lewisjkl/kafkakit
-- liancheng/scalafix-organize-imports
 - librecaptcha/lc-core
 - lichess-org/lila
 - lichess-org/lila-fishnet
@@ -768,7 +721,6 @@
 - majk-p/identicon4s
 - makiftutuncu/e
 - manocha-aman/wind-alerts
-- marcfrederick/htwg-reactive-systems
 - MarcinAman/test-repo
 - MartinHH/scalacheck-derived
 - martinpallmann/gchat
@@ -789,7 +741,6 @@
 - mdedetrich/akka-streams-json
 - mdedetrich/pekko-streams-circe
 - medeia/medeia
-- MercurieVV/skreeep2
 - metabookmarks/lagom-silhouette
 - metabookmarks/sbt-plantuml-plugin
 - metarank/cfor
@@ -799,14 +750,12 @@
 - mfirry/web-frameworks-templates
 - michaelahlers/b2-scala
 - michaelahlers/faker-scala
-- michaelahlers/lagom-scala-examples
 - michaelahlers/learn-scala-3
 - michaelahlers/learn-twitter
 - michaelahlers/presence
 - michaelmior/eson-mining
 - michaelmior/eson-scala
 - miciek/grokkingfp-examples
-- miguel-vila/steve
 - milessabin/shapeless
 - mitochon/polyjuice
 - mkurz/deadbolt-2-java
@@ -820,7 +769,6 @@
 - mobimeo/fs2-gtfs
 - mockito/mockito-scala
 - molarmanful/sclin
-- molikto/medit
 - monadless/monadless
 - monix/minitest
 - monix/monix-bio
@@ -842,8 +790,6 @@
 - mvillafuertem/scalajs-react-world
 - mvillafuertem/scala-seed
 - mvillafuertem/scalcite
-- mwz/sbt-sonar
-- mwz/sonar-scala
 - nachinius/fp-scala-template
 - nachinius/starter.g8
 - nafg/cloud-logging-logback-scala
@@ -864,8 +810,6 @@
 - NakajoLab/B4-Processor
 - namely/chief-of-state
 - naoh87/lettucef
-- navidjalali/firebaseauth
-- NCATS-Tangerine/cam-kp-api
 - nebula-contrib/zio-nebula
 - nemoo/play-slick3-example
 - nemoo/play-slick-synchronous-example
@@ -977,7 +921,6 @@
 - pityka/utils-file
 - pityka/utils-interval
 - pityka/utils-string
-- pjan/akka-d3
 - pjfanning/micrometer-pekko
 - pjfanning/pekko-http-json
 - playalot/ReactiveMongo-Extensions
@@ -1054,8 +997,6 @@
 - precog/fs2-job
 - precog/fs2-ssh
 - precog/kormir
-- precog/qdata
-- precog/quasar
 - precog/quasar-datasource-azure
 - precog/quasar-datasource-kafka
 - precog/quasar-datasource-mongo
@@ -1090,7 +1031,6 @@
 - quafadas/cask-laminar
 - quafadas/dedav4s
 - quafadas/scautable
-- qwbarch/snowflake4s
 - raboof/sbt-reproducible-builds
 - rayrobdod/string-context-parser-combinator
 - rcmartins/blinky
@@ -1280,7 +1220,6 @@
 - seblm/sbt-jgiven-scalatest-reporter
 - seblm/seblm-meals
 - sebver/scala-steward-demo
-- seglo/kafka-lag-exporter
 - senia-psm/zio-test-akka-http
 - sentenza/cats-http4s-crypto
 - sentenza/hacktoberfest-scala-algorithms
@@ -1301,7 +1240,6 @@
 - sideeffffect/zio-testcontainers
 - simao/anorm-async
 - sirgraystar/mandyville-modelling
-- sirocchj/sbt-api-builder
 - sirthias/borer
 - sirthias/spliff
 - sksamuel/avro4s
@@ -1320,17 +1258,13 @@
 - slick/slick-plainsql
 - slick/slick-testkit-example
 - sloshy/fs2-es
-- solidninja/albion
-- solidninja/schema-registry-sttp-client
 - soundcloud/twinagle
-- spekka/spekka
 - spf3000/functional-kniffle
 - spotify/big-data-rosetta-code
 - spotify/elitzur
 - spotify/featran
 - spotify/gcs-tools
 - spotify/magnolify
-- spotify/noether
 - spotify/ratatool
 - spotify/scio
 - spotify/scio.g8
@@ -1349,7 +1283,6 @@
 - sullis/java-scala-interop-examples
 - sullis/jms-testkit
 - sullis/scala-hello-world-app
-- super-flat/scala-otel-tools
 - suzaku-io/boopickle
 - suzaku-io/diode
 - svroonland/play-json-optics
@@ -1370,7 +1303,6 @@
 - SwissBorg/pekko-persistence-postgres
 - SymphonyQL/SymphonyQL
 - synesso/scala-stellar-horizon-exemplar
-- synesso/scala-stellar-sdk
 - SystemFw/upperbound
 - taig/flog
 - taig/lokal
@@ -1379,7 +1311,6 @@
 - tailcallhq/zio-compose
 - takapi327/ldbc
 - takayahilton/sql-formatter
-- tanishiking/scalafix-unused
 - tanishiking/semanticdb-for-scala3
 - tbje/full-stack
 - tbrown1979/totp4s
@@ -1426,14 +1357,7 @@
 - ThoughtWorksInc/tryt.scala
 - timshen24/functional-spark
 - TimWSpence/cats-stm
-- TinkoffCreditSystems/phobos
 - TinkoffCreditSystems/typed-schema
-- Tinkoff/gatling-amqp-plugin
-- Tinkoff/gatling-jdbc-plugin
-- Tinkoff/gatling-kafka-plugin
-- Tinkoff/gatling-picatinny
-- Tinkoff/gatling-template.g8
-- Tinkoff/sbt-schema-registry-plugin
 - tixxit/delimited
 - tkrs/fluflu
 - tkrs/mess
@@ -1469,7 +1393,6 @@
 - trace4cats/trace4cats-zio
 - trace4cats/trace4cats-zipkin
 - transcendent-ai-labs/DynaML
-- TranslatorSRI/ontology-kp
 - travisbrown/dhallj
 - travisbrown/iteratee
 - travisbrown/iteratee-twitter
@@ -1505,7 +1428,6 @@
 - upb-uc4/hlf-api
 - uptane/director
 - uptane/libats
-- uptane/ota-device-registry
 - uptane/ota-tuf
 - uptane/treehub
 - user-signal/fs2-mqtt
@@ -1544,9 +1466,6 @@
 - vladimirlogachev/exercises-fp-strategies-in-scala-with-cats
 - vladimirlogachev/page-title-reader-microservice
 - vladimirlogachev/transitive-closure
-- VladKopanev/cats-saga
-- VladKopanev/zio-saga
-- VladPodilnyk/d4s-example
 - vlovgr/ciris
 - vmunier/akka-http-scalajs.g8
 - vmunier/play-scalajs.g8
@@ -1574,7 +1493,6 @@
 - windymelt/ak4-lambda
 - windymelt/cdp-scala
 - windymelt/zmm
-- wireapp/wire-signals
 - wiringbits/cazadescuentos
 - wiringbits/my-photo-timeline
 - wiringbits/safer.chat
@@ -1642,5 +1560,3 @@
 - ZookLabs/zooklabs
 - zouzias/spark-hello-world
 - zouzias/spark-lucenerdd
-- zzvara/spark-disqus
-- zzvara/spark-youtube
