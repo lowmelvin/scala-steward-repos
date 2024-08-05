@@ -1,4 +1,4 @@
-//> using dep "org.kohsuke:github-api:1.318"
+//> using dep "org.kohsuke:github-api:1.323"
 //> using toolkit default
 //> using scala 3
 
@@ -114,6 +114,6 @@ def main(
     .toList
 
   if nonExistent.nonEmpty then
-    println("Identified problems with repositories:")
+    println(s"\nIdentified problems with ${nonExistent.length} repositories:")
     nonExistent.foreach: repo =>
-      println(s" - $repo")
+      println(s" - https://github.com/$repo")
