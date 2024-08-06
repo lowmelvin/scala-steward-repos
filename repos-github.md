@@ -1304,8 +1304,8 @@
 - tethys-json/tethys
 - ThatScalaGuy/circe-jq
 - ThatScalaGuy/nats4cats
-- ThatScalaGuy/ulid4cats
 - ThatScalaGuy/skunk-crypt
+- ThatScalaGuy/ulid4cats
 - theiterators/akka-http-microservice
 - theiterators/kebs
 - theiterators/pekko-http-microservice
