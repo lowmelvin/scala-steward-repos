@@ -987,6 +987,7 @@
 - RustedBones/pekko-http-thrift
 - RustedBones/scout
 - RustedBones/taxonomy
+- sageserpent-open/americium
 - sagifogel/Proptics
 - sake92/hepek
 - salesforce/transmogrifai-helloworld-sbt
