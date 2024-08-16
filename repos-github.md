@@ -901,6 +901,7 @@
 - RustedBones/scout
 - RustedBones/taxonomy
 - sageserpent-open/americium
+- sageserpent-open/kineticMerge
 - sagifogel/Proptics
 - sake92/hepek
 - salesforce/transmogrifai-helloworld-sbt
