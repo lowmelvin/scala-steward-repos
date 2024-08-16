@@ -1099,6 +1099,7 @@
 - sideeffffect/zio-testcontainers
 - simao/anorm-async
 - sirgraystar/mandyville-modelling
+- siriusxm/snapshot4s
 - sirthias/borer
 - sirthias/spliff
 - sksamuel/avro4s
