@@ -258,7 +258,7 @@
 - dwijnand/sbt-project-graph
 - dylandoamaral/zinteract
 - eed3si9n/expecty
-- EffectOrientedProgramming/examples
+- EffectOrientedProgramming/examples:base
 - eikek/binny
 - eikek/calev
 - eikek/docspell
