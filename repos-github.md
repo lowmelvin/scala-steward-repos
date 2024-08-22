@@ -440,6 +440,7 @@
 - japgolly/univeq
 - jatcwang/scalafix-named-params
 - jchapuis/fs2-kafka-mock
+- jchapuis/leases4s
 - jcouyang/dhall-generic
 - jcouyang/jujiu
 - jd557/interim
