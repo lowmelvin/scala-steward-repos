@@ -349,8 +349,6 @@
 - frawa/typed-json
 - freechipsproject/chisel3
 - freechipsproject/chisel-template
-- freechipsproject/firrtl
-- freechipsproject/treadle
 - fs2-blobstore/fs2-blobstore
 - fthomas/base.g8
 - fthomas/fs2-cron
@@ -483,7 +481,6 @@
 - KelkooGroup/theGardener
 - keuhdall/otel4s-grafana-example
 - Khalian/Modulo12
-- kiendang/python-native-libs
 - kiendang/sbt-scalapy
 - kierendavies/mill-explicit-deps
 - kierendavies/skunk-migrate
@@ -804,7 +801,6 @@
 - proteinevolution/Toolkit
 - pstutz/syncodia
 - pureconfig/pureconfig
-- qbicsoftware/scark-cli
 - quafadas/cask-laminar
 - quafadas/dedav4s
 - quafadas/scautable
@@ -812,7 +808,6 @@
 - rayrobdod/string-context-parser-combinator
 - rcmartins/blinky
 - reactific/riddl
-- reactific/sbt-reactific
 - ReactiveMongo/Play-ReactiveMongo
 - ReactiveMongo/ReactiveMongo
 - ReactiveMongo/ReactiveMongo-BSON
@@ -821,17 +816,12 @@
 - ReactiveMongo/ReactiveMongo-Streaming
 - ReactivePlatform/Pragmatic-Scala
 - ReactivePlatform/Reactive-Design-Patterns
-- regadas/coursier-apps
 - regadas/sbt-socco
-- regadas/scala-seed
-- regadas/scio-cats
-- regadas/scio-contextual
 - regadas/socco-ng
 - regis-leray/fs2-ftp
 - reibitto/be-kind-rewind
 - reibitto/command-center
 - reibitto/podpodge
-- rememberthemilk/akka-amqp
 - rewards-network/pure-aws
 - ringcentral/cassandra4io
 - rintcius/scala-steward-ping
@@ -842,7 +832,6 @@
 - rtimush/sbt-rewarn
 - rtimush/sbt-updates
 - rtimush/scalatags-rx
-- rtimush/zio-magic-comments
 - ruippeixotog/akka-testkit-specs2
 - ruippeixotog/scala-scraper
 - RustedBones/pekko-http-avro
@@ -855,7 +844,6 @@
 - sageserpent-open/kineticMerge
 - sagifogel/Proptics
 - sake92/hepek
-- salesforce/transmogrifai-helloworld-sbt
 - samueleresca/pekko-quartz-scheduler
 - sangria-graphql/macro-visit
 - sangria-graphql/sangria
@@ -889,9 +877,7 @@
 - sbt/sbt-coffeescript
 - sbt/sbt-concat
 - sbt/sbt-digest
-- sbt/sbt-duplicates-finder
 - sbt/sbt-eclipse
-- sbt/sbt-fresh
 - sbt/sbt-git
 - sbt/sbt-gzip
 - sbt/sbt-header
@@ -917,13 +903,8 @@
 - sbt/sbt-web
 - sbt/sbt-web-build-base
 - sbt/zinc
-- scala2ts/scala2ts-core
-- scala2ts/scala2ts-sbt
-- scalabin-no/http4s-directives
 - ScalablyTyped/Converter
-- ScalaConsultants/akka-periscope
 - ScalaConsultants/mesmer-akka-agent
-- ScalaConsultants/zio-akka-http-interop
 - ScalaConsultants/zio-akka-quickstart.g8
 - ScalaConsultants/zio-dotty-quickstart.g8
 - ScalaConsultants/zio-quickstart.g8
@@ -939,8 +920,6 @@
 - scalapb/scalapb-validate
 - scalapb/sparksql-scalapb
 - scalapb/zio-grpc
-- scala-bones/bones
-- scala-bones/scatonic-ideal
 - scala-graph/scala-graph
 - scala-js/scala-js-dom
 - scala-js/scala-js-macrotask-executor
@@ -976,15 +955,9 @@
 - scala/scala-seed.g8
 - scala/scala-xml
 - scala/scala:2.12.x
-- scaldi/scaldi
-- scaldi/scaldi-jsr330
-- scaldi/scaldi-play
 - scanamo/scanamo
-- scaruby/scaruby
 - schrepfler/artemis
-- schrepfler/cas-tools
 - schrepfler/crdt-kit
-- schrepfler/scala-native-cli
 - schrepfler/sportsml-scala
 - schrepfler/uri4s
 - scodec/scodec
@@ -998,7 +971,6 @@
 - scullxbones/pekko-persistence-mongo
 - seblm/sbt-jgiven-scalatest-reporter
 - seblm/seblm-meals
-- sebver/scala-steward-demo
 - senia-psm/zio-test-akka-http
 - sentenza/cats-http4s-crypto
 - sentenza/hacktoberfest-scala-algorithms
@@ -1007,8 +979,6 @@
 - SethTisue/Project-Euler
 - shadaj/scalapy
 - shadaj/slinky
-- shankarshastri/ScalaFPCode
-- shankarshastri/scala-proj-template
 - ShiftLeftSecurity/codepropertygraph
 - ShiftLeftSecurity/js2cpg
 - ShiftLeftSecurity/sbt-ci-release-early
@@ -1017,7 +987,6 @@
 - sideeffffect/zio-doobie
 - sideeffffect/zio-io
 - sideeffffect/zio-testcontainers
-- simao/anorm-async
 - sirgraystar/mandyville-modelling
 - siriusxm/snapshot4s
 - sirthias/borer
@@ -1027,9 +996,7 @@
 - sksamuel/sbt-scapegoat
 - sksamuel/scapegoat
 - slack-scala-client/slack-scala-client
-- Slakah/fastparse-parsers
 - Slakah/slakah.github.io
-- Slakah/uritemplate4s
 - slick/hello-slick
 - slick/slick
 - slick/slick-cats
@@ -1039,7 +1006,6 @@
 - slick/slick-testkit-example
 - sloshy/fs2-es
 - soundcloud/twinagle
-- spf3000/functional-kniffle
 - spotify/big-data-rosetta-code
 - spotify/elitzur
 - spotify/featran
@@ -1051,11 +1017,8 @@
 - spotify/scio-idea-plugin
 - spotify/tfreader
 - srenault/sre-api
-- sritchie/scala-rl
 - stac-utils/stac4s
 - starlake-ai/starlake
-- streetcontxt/kcl-akka-stream
-- stripe/dagon
 - stryker-mutator/mutation-testing-elements
 - stryker-mutator/stryker4s
 - stryker-mutator/weapon-regex
@@ -1064,10 +1027,7 @@
 - sullis/jms-testkit
 - sullis/scala-hello-world-app
 - suzaku-io/boopickle
-- suzaku-io/diode
-- svroonland/play-json-optics
 - svroonland/rezilience
-- svroonland/scodec-ais
 - svroonland/zio-amqp
 - svroonland/zio-kinesis
 - swagger-akka-http/swagger-enumeratum-module
@@ -1082,7 +1042,6 @@
 - SwissBorg/akka-persistence-postgres
 - SwissBorg/pekko-persistence-postgres
 - SymphonyQL/SymphonyQL
-- synesso/scala-stellar-horizon-exemplar
 - SystemFw/upperbound
 - taig/flog
 - taig/lokal
