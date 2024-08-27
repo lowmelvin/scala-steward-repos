@@ -654,6 +654,7 @@
 - nivanov/cosplay
 - nixiesearch/nixiesearch
 - nMoncho/helenus
+- nMoncho/helenus3
 - NomadBlacky/scaladog
 - NomadBlacky/scala_examples
 - note/dhallj-magnolia
