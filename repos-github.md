@@ -4,7 +4,6 @@
 - 2m/history-of-fishing
 - 2m/kabrioletas
 - 2m/polyfact
-- 2m/rallyeye
 - 2m/sonatype-stats
 - 2m/untappd-history
 - 2m/vilnius-pub

@@ -1,18 +1,24 @@
-//> using dep "org.kohsuke:github-api:1.323"
+//> using dep "org.kohsuke:github-api:1.324"
+//> using dep com.lihaoyi::pprint::0.9.0
 //> using toolkit default
 //> using scala 3
 
+import org.kohsuke.github.GHFileNotFoundException
+import org.kohsuke.github.GHIssueState
+import org.kohsuke.github.GHPullRequestQueryBuilder
+import org.kohsuke.github.GHRepository
 import org.kohsuke.github.GitHubBuilder
-import scala.util.Try
+
+import java.util.Date
+import scala.concurrent.Await
+import scala.concurrent.ExecutionContext
+import scala.concurrent.Future
+import scala.concurrent.duration.*
+import scala.jdk.CollectionConverters.*
 import scala.util.Failure
 import scala.util.Success
-import org.kohsuke.github.GHFileNotFoundException
-import scala.concurrent.Future
-import scala.concurrent.ExecutionContext
-import scala.concurrent.Await
-import scala.concurrent.duration._
-import org.kohsuke.github.GHRepository
-import java.util.Date
+import scala.util.Try
+import scala.annotation.tailrec
 
 val inactiveYears = 2
 val inactiveDateCutoff = {
@@ -35,11 +41,14 @@ enum RepoResult(repo: String, branch: Option[String], val isValid: Boolean):
       extends RepoResult(entry.repo, entry.branch, isValid = true)
   case Inactive(repo: String)
       extends RepoResult(repo, branch = None, isValid = false)
+  case Stale(repo: String)
+      extends RepoResult(repo, branch = None, isValid = false)
 
   override def toString(): String =
     this match
       case Invalid(repo, None)         => repo + " (doesn't exist)"
       case Invalid(repo, Some(branch)) => s"$repo:$branch (no such branch)"
+      case Stale(repo)                => s"$repo no recent open steward prs"
       case Archived(value)             => s"$repo is archived"
       case Inactive(value) => s"$repo is inactive for last $inactiveYears"
       case Correct(_)      => s"$repo:$branch (OK)"
@@ -93,6 +102,19 @@ def main(
       Some(RepoResult.Inactive(repoEntry.repo))
     else None
 
+  def noScalaStewardActivity(ghRepo: GHRepository, repoEntry: RepoEntry) =
+
+    val hasStewardRequests =
+      gh.searchIssues()
+        .q(s"repo:${repoEntry.repo} type:pr author:scala-steward state:open")
+        .list()
+        .withPageSize(1)
+        .iterator()
+        .hasNext()
+
+    if hasStewardRequests then None
+    else Some(RepoResult.Stale(repoEntry.repo))
+
   val nonExistent = repos
     .grouped(5)
     .flatMap: repos =>
@@ -106,6 +128,7 @@ def main(
               wrongBranch(ghRepo, repoEntry)
                 .orElse(archived(ghRepo, repoEntry))
                 .orElse(isInactive(ghRepo, repoEntry))
+                .orElse(noScalaStewardActivity(ghRepo, repoEntry))
                 .getOrElse(RepoResult.Correct(repoEntry))
             case _ => RepoResult.Correct(repoEntry)
 
