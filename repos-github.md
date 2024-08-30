@@ -431,6 +431,7 @@
 - japgolly/scala-graal
 - japgolly/test-state
 - japgolly/univeq
+- jatcwang/difflicious
 - jatcwang/scalafix-named-params
 - jchapuis/fs2-kafka-mock
 - jchapuis/leases4s
