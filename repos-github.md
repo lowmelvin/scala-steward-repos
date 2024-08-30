@@ -94,8 +94,6 @@
 - balhoff/materializer
 - balhoff/owl-diff
 - balhoff/owl-to-rules
-- balhoff/relation-graph
-- balhoff/whelk
 - bazeltools/bsp4bazel
 - bbarker/diz
 - bcarter97/id-generator
@@ -406,6 +404,8 @@
 - igor-vovk/cats-effect-simple-di
 - ikhoon/scalapb-reactor
 - INCATools/boomer
+- INCATools/relation-graph
+- INCATools/whelk
 - informalsystems/apalache
 - ing-bank/baker
 - inoio/solrs
