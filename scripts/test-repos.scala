@@ -1,8 +1,15 @@
-//> using dep "org.kohsuke:github-api:1.324"
+//> using dep org.kohsuke:github-api:1.324
 //> using dep com.lihaoyi::pprint::0.9.0
+//> using dep ch.epfl.lamp::gears::0.2.0
+//> using dep com.outr::scribe::3.15.0
 //> using toolkit default
 //> using scala 3
+//> using jvm 21
 
+import gears.async.*
+import gears.async.Retry.Delay
+import gears.async.Retry.Jitter
+import gears.async.default.given
 import org.kohsuke.github.GHFileNotFoundException
 import org.kohsuke.github.GHIssueState
 import org.kohsuke.github.GHPullRequestQueryBuilder
@@ -10,22 +17,29 @@ import org.kohsuke.github.GHRepository
 import org.kohsuke.github.GitHubBuilder
 
 import java.util.Date
-import scala.concurrent.Await
-import scala.concurrent.ExecutionContext
-import scala.concurrent.Future
+import scala.annotation.tailrec
 import scala.concurrent.duration.*
 import scala.jdk.CollectionConverters.*
 import scala.util.Failure
 import scala.util.Success
 import scala.util.Try
-import scala.annotation.tailrec
+import org.kohsuke.github.GHException
+import org.kohsuke.github.HttpException
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
 
 val inactiveYears = 2
-val inactiveDateCutoff = {
+val inactiveDateCutoff =
   val date = Date()
   date.setYear(date.getYear() - inactiveYears)
   date
-}
+
+val lastMonth =
+  val date = LocalDate.now().minusDays(30)
+  ">" + date.format(DateTimeFormatter.ISO_LOCAL_DATE)
+
+val renamedMessage =
+  "The listed users and repositories cannot be searched either because the resources do not exist or you do not have permission to view them."
 
 case class RepoEntry(repo: String, branch: Option[String]):
   override def toString(): String = this match
@@ -43,13 +57,16 @@ enum RepoResult(repo: String, branch: Option[String], val isValid: Boolean):
       extends RepoResult(repo, branch = None, isValid = false)
   case Stale(repo: String)
       extends RepoResult(repo, branch = None, isValid = false)
+  case Renamed(repo: String)
+      extends RepoResult(repo, branch = None, isValid = false)
 
   override def toString(): String =
     this match
       case Invalid(repo, None)         => repo + " (doesn't exist)"
       case Invalid(repo, Some(branch)) => s"$repo:$branch (no such branch)"
-      case Stale(repo)                => s"$repo no recent open steward prs"
+      case Stale(repo)                 => s"$repo no recent Scala Steward prs"
       case Archived(value)             => s"$repo is archived"
+      case Renamed(value)              => s"$repo might be renamed"
       case Inactive(value) => s"$repo is inactive for last $inactiveYears"
       case Correct(_)      => s"$repo:$branch (OK)"
 
@@ -63,8 +80,6 @@ enum RepoResult(repo: String, branch: Option[String], val isValid: Boolean):
 def main(
     githubToken: String
 ) =
-  given ex: ExecutionContext = ExecutionContext.global
-
   val reposGihub = os.pwd / "repos-github.md"
   val repos = os
     .read(reposGihub)
@@ -106,7 +121,7 @@ def main(
 
     val hasStewardRequests =
       gh.searchIssues()
-        .q(s"repo:${repoEntry.repo} type:pr author:scala-steward state:open")
+        .q(s"repo:${repoEntry.repo} type:pr author:scala-steward created:$lastMonth")
         .list()
         .withPageSize(1)
         .iterator()
@@ -115,28 +130,54 @@ def main(
     if hasStewardRequests then None
     else Some(RepoResult.Stale(repoEntry.repo))
 
-  val nonExistent = repos
-    .grouped(5)
-    .flatMap: repos =>
-      val futures = repos.map: repoEntry =>
-        println(s"Analysing $repoEntry")
-        Future:
-          Try(gh.getRepository(repoEntry.repo)) match
-            case Failure(exception: GHFileNotFoundException) =>
-              RepoResult.Invalid(repoEntry.repo, repoEntry.branch)
-            case Success(ghRepo) =>
-              wrongBranch(ghRepo, repoEntry)
-                .orElse(archived(ghRepo, repoEntry))
-                .orElse(isInactive(ghRepo, repoEntry))
-                .orElse(noScalaStewardActivity(ghRepo, repoEntry))
-                .getOrElse(RepoResult.Correct(repoEntry))
-            case _ => RepoResult.Correct(repoEntry)
+  Async.blocking:
+    val nonExistent = repos
+      .grouped(5)
+      .flatMap { repos =>
+        repos.map { repoEntry =>
+          val request = Future:
+            println(s"Analysing $repoEntry")
+            Try(gh.getRepository(repoEntry.repo)) match
+              case Failure(exception: GHFileNotFoundException) =>
+                RepoResult.Invalid(repoEntry.repo, repoEntry.branch)
+              case Success(ghRepo) =>
+                wrongBranch(ghRepo, repoEntry)
+                  .orElse(archived(ghRepo, repoEntry))
+                  .orElse(isInactive(ghRepo, repoEntry))
+                  .orElse(noScalaStewardActivity(ghRepo, repoEntry))
+                  .getOrElse(RepoResult.Correct(repoEntry))
+              case _ => RepoResult.Correct(repoEntry)
 
-      Await.result(Future.sequence(futures), 1.minute)
-    .filter(!_.isValid)
-    .toList
+          Retry.untilSuccess
+            .withMaximumFailures(5)
+            .withDelay(
+              Delay.backoff(
+                maximum = 5.minutes,
+                starting = 10.seconds,
+                multiplier = 4,
+                jitter = Jitter.equal
+              )
+            ) {
+              request.awaitResult match
+                case Failure(exception: GHException) =>
+                  Option(exception.getCause()) match
+                    case Some(http: HttpException)
+                        if http.getMessage().contains(renamedMessage) =>
+                      RepoResult.Renamed(repoEntry.repo)
+                    case _ =>
+                      scribe.error(s"Unexpeected error when querying ${repoEntry.repo}", exception)
+                      throw exception
+                case Failure(exception) =>
+                      scribe.error(s"Unexpeected error when querying ${repoEntry.repo}", exception)
+                      throw exception
+                case Success(value) => value
+            }
+        }
+      }
+      .filter(!_.isValid)
+      .toList
 
-  if nonExistent.nonEmpty then
-    println(s"\nIdentified problems with ${nonExistent.length} repositories:")
-    nonExistent.foreach: repo =>
-      println(s" - https://github.com/$repo")
+    if nonExistent.nonEmpty then
+      println(s"\nIdentified problems with ${nonExistent.length} repositories:")
+      nonExistent.foreach: repo =>
+        println(s" - https://github.com/$repo")
