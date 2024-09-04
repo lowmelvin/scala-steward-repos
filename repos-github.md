@@ -937,6 +937,8 @@
 - scala/scala3.g8
 - scala/scala3-cross.g8
 - scala/scala3-example-project
+- scala/scala3-staging.g8
+- scala/scala3-tasty-inspector.g8
 - scala/scalatest-example.g8
 - scala/scala-async
 - scala/scala-collection-compat
