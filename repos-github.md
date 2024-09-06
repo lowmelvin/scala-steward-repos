@@ -683,6 +683,7 @@
 - pbernet/akka_streams_tutorial
 - peregin/gps-overlay-on-video
 - peregin/velocorner.com
+- PerformanceIMMO/pg-event-store
 - peterstorm/scala3-template
 - phdoerfler/beegment
 - phdoerfler/enni
