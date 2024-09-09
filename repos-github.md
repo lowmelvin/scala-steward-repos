@@ -560,6 +560,7 @@
 - lowmelvin/cats-starter.g8
 - lowmelvin/formify-scala
 - lowmelvin/hammer-scala
+- lowmelvin/scala-json-schema
 - LPTK/simple-sub
 - lqhuang/watcher
 - lsug/lsug-website
