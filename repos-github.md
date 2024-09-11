@@ -246,6 +246,7 @@
 - domino-osgi/domino-java
 - doriordan/skuber
 - doubleloop-io/applied-fp-workshop-scala
+- dpratt747/zio-app-example-scala3
 - dragonfly-ai/mesh
 - dragonfly-ai/narr
 - dragonfly-ai/slash
