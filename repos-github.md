@@ -331,7 +331,7 @@
 - fdietze/vectory
 - felher/beminar
 - felher/catenary
-- felher/laminar-component-persistence
+- felher/laminouter
 - felher/sainte-lague
 - finagle/finagle-mysql-shapes
 - finagle/finch
