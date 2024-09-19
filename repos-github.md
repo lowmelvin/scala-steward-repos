@@ -174,8 +174,8 @@
 - codacy/codacy-analysis-cli
 - codelytv/scala-basic-skeleton.g8
 - comcast/ip4s
-- commercetools/sphere-scala-libs
 - commercetools/fs2-queues
+- commercetools/sphere-scala-libs
 - com-lihaoyi/acyclic
 - com-lihaoyi/Ammonite
 - com-lihaoyi/castor
