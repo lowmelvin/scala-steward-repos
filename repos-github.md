@@ -175,6 +175,7 @@
 - codelytv/scala-basic-skeleton.g8
 - comcast/ip4s
 - commercetools/sphere-scala-libs
+- commercetools/fs2-queues
 - com-lihaoyi/acyclic
 - com-lihaoyi/Ammonite
 - com-lihaoyi/castor
