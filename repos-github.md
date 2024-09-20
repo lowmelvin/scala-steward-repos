@@ -808,6 +808,12 @@
 - quafadas/dedav4s
 - quafadas/scautable
 - raboof/sbt-reproducible-builds
+- raw-labs/das-jira
+- raw-labs/das-mock
+- raw-labs/das-salesforce
+- raw-labs/das-sdk-scala
+- raw-labs/das-server-scala
+- raw-labs/protocol-das
 - raw-labs/snapi
 - rayrobdod/string-context-parser-combinator
 - rcmartins/blinky
