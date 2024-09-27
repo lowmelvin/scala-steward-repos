@@ -205,6 +205,7 @@
 - coursier/echo
 - coursier/http-server
 - coursier/interface
+- coursier/jni-utils
 - coursier/publish
 - coursier/sbt-coursier
 - coursier/sbt-shading
